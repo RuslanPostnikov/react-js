@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import Component from "./Components/hw10/Component";
+import TodoBox from "./Components/hw11/TodoBox";
+
 
 function App() {
   return (
     <div className="App">
-      <Component />
+      {/*<Component />*/}
+        <TodoBox />
     </div>
   );
 }

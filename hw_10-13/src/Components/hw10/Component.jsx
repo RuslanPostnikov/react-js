@@ -1,5 +1,4 @@
 import React from "react";
-import List from "./List";
 
 class Component extends React.Component {
 
@@ -19,7 +18,7 @@ class Component extends React.Component {
 
     removeItem = (id) => (e) => {
         e.preventDefault();
-        const newItems = this.state.items.filter((item) => item.id !== id);
+        const newItems = this.state.items.filter(item => item.id !== id);
         this.setState({ items: newItems });
     };
 
