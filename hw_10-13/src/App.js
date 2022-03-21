@@ -3,6 +3,7 @@ import Component from "./Components/hw10/Component";
 import TodoBox from "./Components/hw11/TodoBox";
 import Card from "./Components/hw12/Card";
 import ModalComponent from "./Components/hw13/ModalComponent";
+import Form from "./Components/Form/Form";
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
         {/*        <Card.Text>Text</Card.Text>*/}
         {/*    </Card.Body.jsx>*/}
         {/*</Card>*/}
-        <ModalComponent />
+        {/*<ModalComponent />*/}
+        <Form />
     </div>
   );
 }

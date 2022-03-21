@@ -9,12 +9,8 @@ export default class PostCatalog extends React.Component {
         }
     }
 
-    renderPosts = async () => {
-        return await fetch('https://jsonplaceholder.typicode.com/posts')
-    }
-
     componentDidMount() {
-        this.renderPosts()
+        fetch('https://jsonplaceholder.typicode.com/posts')
             .then(res => res.json())
             .then(items => this.setState({
                 isLoaded: true,
